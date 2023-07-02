@@ -17,3 +17,6 @@ git pull
 git add .
 git commit "added updated some files"
 git push -u origin master
+
+Token works in intellij, to connect with github directly : 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 (w.e.f :  02/07/23)
+
