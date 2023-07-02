@@ -1,0 +1,19 @@
+New Token : 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 [w.e.f : 27/06/23] for 3 months
+git remote set-url origin https://kiran-c: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@github.com/kiran-c/property-management-2.git
+
+Steps to connect the Repo to GitHub for the first Time
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/kiran-c/property-management-2.git
+git push -u origin master
+
+
+Steps to connect the Repo to GitHub from the next time
+
+git pull
+git add .
+git commit "added updated some files"
+git push -u origin master
