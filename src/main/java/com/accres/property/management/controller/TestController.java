@@ -12,6 +12,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 public class TestController {
 
     //http://localhost:8080/dummyurl/v1/10.0/10.0
+    //System.out.println("Added to c the changes");
     @GetMapping("/v1/{p1}/{p2}")
     public Double addv1(@PathVariable("p1") Double var1, @PathVariable("p2") Double var2)
     {
