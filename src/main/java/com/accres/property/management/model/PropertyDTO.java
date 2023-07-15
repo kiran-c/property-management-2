@@ -9,9 +9,7 @@ public class PropertyDTO {
 
     private Long pid;
     private String propertyType;
-  //  private String description;
-    private String ownerName;
-   // private String ownerEmail;
     private Double price;
+    private String description;
     private String location;
 }
